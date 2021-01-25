@@ -1,0 +1,44 @@
+body {
+    display: inline-block;
+    width: 1000px;
+    margin-left: calc((100% - 1000px) / 2);
+    margin-top: 20px;
+}
+header {
+    display: inline-block;
+    width: 100%;
+}
+header > img {
+    display: inline-block;
+    width: 15%;
+    float: left;
+}
+nav {
+    display: inline-block;
+    width: 60%;
+    float: left;
+    margin-left: 130px;
+   line-height: 50px;
+    
+}
+nav > a {
+    padding: 0 15px;
+    font-size: 21px;
+    text-decoration: none;
+    color: #000;
+}
+nav > a:hover {
+    font-size: 30px;
+    color: #FF3E81;
+}
+header > button {
+    display: inline-block;
+    width: 15%;
+    float: right;
+    font-size: 21px;
+    color: #fff;
+    background-color: #3A88EC;
+    padding: 10px 30px;
+    border-radius: 50px;
+
+}
