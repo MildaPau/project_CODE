@@ -1,0 +1,18 @@
+header > button {
+    display: inline-block;
+    width: 15%;
+    float: right;
+    font-size: 18px;
+    color: #fff;
+    background-color: #3A88EC;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+}
+header > button:hover {
+    color: #fff;
+    background-color: #F21961;
+}
+
