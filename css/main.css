@@ -13,32 +13,55 @@ header > img {
     width: 15%;
     float: left;
 }
-nav {
+.nav {
     display: inline-block;
-    width: 60%;
+    width: 70%;
     float: left;
-    margin-left: 130px;
-   line-height: 50px;
-    
+    text-align: right;
+    padding-right: 40px;
+    margin-top: 5px;
 }
-nav > a {
-    padding: 0 15px;
-    font-size: 21px;
+.nav-item {
+    display: inline-block;
+    padding: 10px;
+    text-align: right;
+    line-height: 18px;
+}
+.nav-item-number{
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    font-size: 14px;
+    color: #ccc;
+    line-height: 0;
+}
+.nav-item-link {
+    display: inline-block;
     text-decoration: none;
+    font-size: 18px;
+    line-height: 0;
     color: #000;
+    font-weight: bolder;
 }
-nav > a:hover {
-    font-size: 30px;
-    color: #FF3E81;
+.nav-item-link:hover {
+    font-size: 20px;
+    color: #F21961;
 }
 header > button {
     display: inline-block;
     width: 15%;
     float: right;
-    font-size: 21px;
+    font-size: 18px;
     color: #fff;
     background-color: #3A88EC;
     padding: 10px 30px;
     border-radius: 50px;
-
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
 }
+header > button:hover {
+    color: #fff;
+    background-color: #F21961;
+}
+
