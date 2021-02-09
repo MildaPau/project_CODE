@@ -3,7 +3,10 @@ body {
     width: 1000px;
     margin-left: calc((100% - 1000px) / 2);
     margin-top: 20px;
+    font-family:'Courier New', Courier, monospace;
+    background-color: #FCFCFC;
 }
+/* HEADER */
 header {
     display: inline-block;
     width: 100%;
@@ -46,4 +49,42 @@ header > img {
 .nav-item-link:hover {
     font-size: 20px;
     color: #F21961;
+}
+
+/* HERO */
+.hero {
+    width: 100%;
+    float: left;
+    margin-top: 100px;
+    min-height: 80vh;
+}
+.hero-img {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    padding: 10px 30px;
+}
+.hero-columnTwo{
+    display: inline-block;
+    width: 40%;
+    float: left;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 65px;
+    line-height: 1;
+    color: #303669;
+}
+.hero > .hero-columnTwo > p {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
