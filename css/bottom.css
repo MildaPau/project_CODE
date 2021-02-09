@@ -1,4 +1,4 @@
-header > button {
+.btn-blue {
     display: inline-block;
     width: 15%;
     float: right;
@@ -11,8 +11,26 @@ header > button {
     margin-top: 5px;
     cursor: pointer;
 }
-header > button:hover {
+.btn-blue:hover {
     color: #fff;
     background-color: #F21961;
+}
+
+.btn-pink {
+    display: inline-block;
+    width: 45%;
+    float: left;
+    font-size: 18px;
+    color: #fff;
+    background-color: #F21961;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.btn-pink:hover {
+    color: #fff;
+    background-color: #3A88EC;
 }
 
