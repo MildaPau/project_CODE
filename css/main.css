@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 body {
     display: inline-block;
     width: 1000px;
@@ -110,9 +110,5 @@ h1 {
 .column1 > p {
     font-size: 17px;
 }
-=======
-header {
-    display: inline-block;
-    width: 900px;
-}
->>>>>>> Stashed changes
+
+
