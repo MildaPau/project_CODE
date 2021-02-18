@@ -1,0 +1,25 @@
+{
+    "name": "project_CODE",
+    "version": "1.0.0",
+    "description": "![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)\r ![Security Status](https://img.shields.io/security-headers?label=Security&url=https%3A%2F%2Fgithub.com&style=flat-square)\r ![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)\r ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)",
+    "main": "index.js",
+    "scripts": {
+        "dev": "live-server",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MildaPau/project_CODE.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MildaPau/project_CODE/issues"
+    },
+    "homepage": "https://github.com/MildaPau/project_CODE#readme",
+    "devDependencies": {
+        "jest": "^26.6.3",
+        "live-server": "^1.2.1"
+    }
+}
