@@ -44,7 +44,7 @@ header > img {
     font-size: 18px;
     line-height: 0;
     color: #000;
-    font-weight: bolder;
+    font-weight: 600;
 }
 .nav-item-link:hover {
     font-size: 20px;
@@ -75,9 +75,12 @@ header > img {
         width: 350px;
         margin: 0 calc(50% - 175px);
     }
+    .nav-item-link {
+        font-size: 16px;
+    }
     .nav-item-link:hover {
         color: #f21961;
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 
@@ -90,25 +93,26 @@ header > img {
 }
 .hero-img {
     display: inline-block;
-    width: 50%;
+    width: 45%;
     float: left;
+    margin-top: 30px;
 }
 .hero-columnTwo {
     display: inline-block;
     width: 40%;
     float: left;
-    margin-left: 80px;
-    margin-top: 50px;
+    margin-left: 100px;
 }
 
 h3 {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: normal;
     line-height: 1.5;
+    margin-bottom: 15px;
 }
 
 h1 {
-    font-size: 65px;
+    font-size: 62px;
     line-height: 1;
     color: #303669;
 }
@@ -116,6 +120,7 @@ h1 {
     font-size: 20px;
     margin-top: 25px;
     margin-bottom: 25px;
+    font-weight: 200;
 }
 
 @media (max-width: 1030px) {
