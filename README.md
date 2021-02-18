@@ -9,7 +9,7 @@ _Webside project_CODE_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
 
-Site published at
+Site published at (https://mildapau.github.io/project_CODE/)
 
 Design: [CODE] (https://demo.codefest.co.uk/codelander/)
 
